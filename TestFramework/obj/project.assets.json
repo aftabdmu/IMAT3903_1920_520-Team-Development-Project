@@ -258,11 +258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Final Team Development Project\\TeamDevelopmentProject\\TestFramework\\TestFramework.csproj",
+      "projectUniqueName": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Practice Team Development\\TeamDevelopmentProject-master\\TestFramework\\TestFramework.csproj",
       "projectName": "TestFramework",
-      "projectPath": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Final Team Development Project\\TeamDevelopmentProject\\TestFramework\\TestFramework.csproj",
+      "projectPath": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Practice Team Development\\TeamDevelopmentProject-master\\TestFramework\\TestFramework.csproj",
       "packagesPath": "C:\\Users\\Smart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Final Team Development Project\\TeamDevelopmentProject\\TestFramework\\obj\\",
+      "outputPath": "C:\\Users\\Smart\\Desktop\\DMU Final Year\\Team Development Project\\Practice Team Development\\TeamDevelopmentProject-master\\TestFramework\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

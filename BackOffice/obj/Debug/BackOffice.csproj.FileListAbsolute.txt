@@ -1,0 +1,30 @@
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.exe.config
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.exe
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.pdb
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csprojAssemblyReference.cache
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmAddUser.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmChangePassword.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmMedicine.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmMenu.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.MDIBackEnd.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.Properties.Resources.resources
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csproj.GenerateResource.cache
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csproj.CoreCompileInputs.cache
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.exe
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.pdb
+C:\Users\Smart\Desktop\DMU Final Year\Team Development Project\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmSignIn.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.exe.config
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.exe
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\bin\Debug\BackOffice.pdb
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csprojAssemblyReference.cache
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmAddUser.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmChangePassword.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmMedicine.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmMenu.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.frmSignIn.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.MDIBackEnd.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.Properties.Resources.resources
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csproj.GenerateResource.cache
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.csproj.CoreCompileInputs.cache
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.exe
+F:\Practice Team Development\TeamDevelopmentProject-master\BackOffice\obj\Debug\BackOffice.pdb

@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TeamMasterPage.master.cs" Inherits="TeamMasterPage" %>
+
+<!DOCTYPE html>
+
+
+<html>
+    <head id="Head1" runat="server">
+        <title>Team Business</title>
+        <link href="TeamStyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+
+ 
+             <header>
+                 Team Business<br />
+                 <asp:HyperLink ID="hypSignIn" runat="server" NavigateUrl="~/SignIn.aspx">Sign In-</asp:HyperLink>
+                 <asp:HyperLink ID="hypSignUp" runat="server" NavigateUrl="~/SignUp.aspx">Sign Up-</asp:HyperLink>
+                 <asp:HyperLink ID="hypChangePassword" runat="server" NavigateUrl="~/ChangePassword.aspx">Change Password-</asp:HyperLink>
+                 <asp:HyperLink ID="hypSignOut" runat="server" NavigateUrl="~/SignOut.aspx">Sign Out-</asp:HyperLink>
+                 <asp:HyperLink ID="hypReSet" runat="server" NavigateUrl="~/ReSet.aspx">Re-Set Password-</asp:HyperLink>
+
+
+             </header>
+ 
+            <article>
+            </article>
+
+
+
+  
+            <footer>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             © Team Business . All Rights Reserved 
+            </footer>
+             <p>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                <asp:Image ID="Image1" runat="server" style="z-index: 1; left: 70px; top: 170px; position: absolute; height: 91px; width: 96px;" ImageUrl="~/TeamImages/Logo.png" />
+                </asp:ContentPlaceHolder>
+             </p>
+        </form>
+    </body>
+</html>
