@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SAMasterPage.master" AutoEventWireup="true" CodeFile="SAMakeBooking.aspx.cs" Inherits="SAMakeBooking" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AKMasterPage.master" AutoEventWireup="true" CodeFile="AKMakeBooking.aspx.cs" Inherits="AKMakeBooking" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<p style="height: 500px">
+    <p style="height: 500px">
         <br />
         <asp:Button ID="btnOK" runat="server" OnClick="btnOK_Click" style="z-index: 1; left: 335px; top: 376px; position: absolute; height: 32px; width: 49px" Text="OK" />
         <asp:TextBox ID="txtTime" runat="server" style="z-index: 1; left: 500px; top: 133px; position: absolute; width: 236px"></asp:TextBox>

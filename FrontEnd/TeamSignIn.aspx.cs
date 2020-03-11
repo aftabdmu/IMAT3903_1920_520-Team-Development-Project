@@ -31,7 +31,7 @@ public partial class TeamSignIn : System.Web.UI.Page
         if (Error == "")
         {
             //redirect to the main page
-            Response.Redirect("Default.aspx");
+            Response.Redirect("TeamMain.aspx");
         }
         else
         {
@@ -43,12 +43,12 @@ public partial class TeamSignIn : System.Web.UI.Page
    protected void btnReSend_Click(object sender, EventArgs e)
     {
         //navigate to the re-send page
-        Response.Redirect("ReSet.aspx");
+        Response.Redirect("TeamReSet.aspx");
     }
 
     protected void btnCancel_Click(object sender, EventArgs e)
     {
         //navigate back to default
-        Response.Redirect("Default.aspx");
+        Response.Redirect("TeamMain.aspx");
     }
 }

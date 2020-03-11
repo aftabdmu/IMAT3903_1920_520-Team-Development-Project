@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class clsSAAppts
+    class clsAKAppts
     {
 
-        public clsSAAppts()
+        public clsAKAppts()
         {
             //
             // TODO: Add constructor logic here
@@ -21,8 +21,6 @@ namespace ClassLibrary
         public int ApptTime { get; internal set; }
         public string ApptReason { get; internal set; }
     }
+
 }
-
-
-
 

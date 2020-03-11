@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAKAppts.cs" />
+    <Compile Include="clsAKApptsCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
-    <Compile Include="clsSAAppts.cs" />
-    <Compile Include="clsSAApptsCollection.cs" />
     <Compile Include="clsSecurity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

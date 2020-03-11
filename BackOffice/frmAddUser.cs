@@ -16,5 +16,23 @@ namespace BackOffice
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            //create an instance of the security class
+            clsSecurity Sec = new clsSecurity();
+            //get the new users details
+            string EMail = txtEMail.Text;
+            string Password1 = txtEMail.Text;
+            string Password2 = txtPassword2.Text;
+            //try to sign up the new user
+            lblError.Text = Sec.SignUp(EMail, Password1, Password2, true);
+        }
+
+        private void btnDone_Click(object sender, EventArgs e)
+        {
+            //close the current form
+            this.Close();
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class clsSAApptsCollection
+    class clsAKApptsCollection
     {
 
         //private data member to store he booking date
@@ -14,11 +14,11 @@ namespace ClassLibrary
         //data connection with class level scope
         clsDataConnection DB = new clsDataConnection();
         //private data member for the list of appointments
-        private List<clsSAAppts> mAppts = new List<clsSAAppts>();
+        private List<clsAKAppts> mAppts = new List<clsAKAppts>();
 
 
         //constructor for the class
-        public clsSAApptsCollection(DateTime ADate)
+        public clsAKApptsCollection(DateTime ADate)
         {
             //get appointments for this date
             FilterByDate(ADate);
@@ -27,7 +27,7 @@ namespace ClassLibrary
         }
 
         //public list of appointments
-        public List<clsSAAppts> Appts
+        public List<clsAKAppts> Appts
         {
             get
             {
@@ -36,10 +36,10 @@ namespace ClassLibrary
         }
 
         //use dto generate the list of appointments
-        private List<clsSAAppts> GetSchedule()
+        private List<clsAKAppts> GetSchedule()
         {
             //list of appts for this function
-            List<clsSAAppts> mAvailableAppts = new List<clsSAAppts>();
+            List<clsAKAppts> mAvailableAppts = new List<clsAKAppts>();
             //loop through the times of day 9 - 16
             for (Int32 SomeTime = 9; SomeTime < 17; SomeTime++)
             {
@@ -49,7 +49,7 @@ namespace ClassLibrary
                 if (Index < 0)
                 {
                     //create a new blank slot
-                    clsSAAppts NewAppt = new clsSAAppts();
+                    clsAKAppts NewAppt = new clsAKAppts();
                     //record the primary key as -time
                     NewAppt.ApptNo = -SomeTime;
                     //store the date using the private data member
@@ -64,7 +64,7 @@ namespace ClassLibrary
                 else //if the time has a booking
                 {
                     //create a new blank appt
-                    clsSAAppts NewAppt = new clsSAAppts();
+                    clsAKAppts NewAppt = new clsAKAppts();
                     //record the appt no from the db
                     NewAppt.ApptNo = Convert.ToInt32(DB.DataTable.Rows[Index]["ApptNo"]);
                     //redord the appt date
@@ -121,7 +121,7 @@ namespace ClassLibrary
             //add parameter for the date
             DB.AddParameter("@ApptDate", ApptDate);
             //execute the stored procedure
-            DB.Execute("sproc_tblSAAppts_FilterByDate");
+            DB.Execute("sproc_tblAKAppts_FilterByDate");
             //get the appt schedule for this date
             mAppts = GetSchedule();
         }
@@ -145,9 +145,7 @@ namespace ClassLibrary
             DB.AddParameter("@ApptTime", ApptTime);
             DB.AddParameter("@ApptReason", ApptReason);
             //add the new record
-            DB.Execute("sproc_tblSAAppts_Insert");
+            DB.Execute("sproc_tblAKAppts_Insert");
         }
     }
 }
-    
-
