@@ -58,6 +58,12 @@
     <Compile Include="frmChangePassword.Designer.cs">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMedicine.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOpticianMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpticianMain.Designer.cs">
+      <DependentUpon>frmOpticianMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPharmacyMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,12 @@
     </Compile>
     <Compile Include="frmSignIn.Designer.cs">
       <DependentUpon>frmSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpectacle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpectacle.Designer.cs">
+      <DependentUpon>frmSpectacle.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIBackEnd.cs">
       <SubType>Form</SubType>
@@ -96,17 +114,26 @@
     <EmbeddedResource Include="frmChangePassword.resx">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMedicine.resx">
       <DependentUpon>frmMedicine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOpticianMain.resx">
+      <DependentUpon>frmOpticianMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPharmacyMain.resx">
       <DependentUpon>frmPharmacyMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSignIn.resx">
       <DependentUpon>frmSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpectacle.resx">
+      <DependentUpon>frmSpectacle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIBackEnd.resx">
       <DependentUpon>MDIBackEnd.cs</DependentUpon>
