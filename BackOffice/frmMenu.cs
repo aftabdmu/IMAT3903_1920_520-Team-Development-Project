@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BackOffice
 {
-    public partial class frmAddCustomer : Form
+    public partial class frmMenu : Form
     {
-        public frmAddCustomer()
+        public frmMenu()
         {
             InitializeComponent();
         }

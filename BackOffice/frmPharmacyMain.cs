@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BackOffice
 {
-    public partial class frmCustomer : Form
+    public partial class frmPharmacyMain : Form
     {
-        public frmCustomer()
+        public frmPharmacyMain()
         {
             InitializeComponent();
         }
