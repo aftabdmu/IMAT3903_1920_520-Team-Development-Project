@@ -12,12 +12,25 @@ namespace BackOffice
 {
     public partial class MDIBackEnd : Form
     {
+
+        //create an object based on the security class
+        clsSecurity Sec = new clsSecurity();
+        //create an instance of the main menu form
+        frmMenu Menu = new frmMenu();
+
+
         private int childFormNumber = 0;
 
         public MDIBackEnd()
         {
             InitializeComponent();
         }
+
+        private void mdiBackEnd_Load(object sender, EventArgs e)
+        {
+            SetLinks(Sec.Authenticated, Sec.Admin);
+        }
+
 
         private void ShowNewForm(object sender, EventArgs e)
         {
@@ -102,6 +115,71 @@ namespace BackOffice
             {
                 childForm.Close();
             }
+        }
+
+        private void signInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //create a new instance of the sign in form
+            frmSignIn Auth = new frmSignIn();
+            //show the form as a dialogue i.e. modally
+            Auth.ShowDialog();
+            //get the state of the security once close
+            Sec = Auth.Sec;
+            //if security state is authenticated
+            if (Sec.Authenticated == true)
+            {
+                //close the login form
+                Auth.Close();
+                //ste the menu as a child of this parent
+                Menu.MdiParent = this;
+                //display the menu
+                Menu.Visible = true;
+                //set the state of the security links
+                SetLinks(Sec.Authenticated, Sec.Admin);
+            }
+        }
+
+        private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //sign out the current user
+            //set the main menu to not visible
+            Menu.Visible = false;
+            //invoke the sign out method
+            Sec.SignOut();
+            //set the links
+            SetLinks(Sec.Authenticated, Sec.Admin);
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //display the change password form
+            frmChangePassword Change = new frmChangePassword();
+            //set the mode using a specific user 
+            Change.SetMode(Sec, Sec.UserEMail);
+            //show the form as a dialogue
+            Change.ShowDialog();
+            //get the state of the scurity once done
+            Sec = Change.Sec;
+        }
+
+        private void reSetUserPasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //resets the password
+            //create a instance of the chnage passord form
+            frmChangePassword Change = new frmChangePassword();
+            //set the mode to change any user password (admin only)
+            Change.SetMode(Sec, "");
+            //show the form as a dialogue
+            Change.ShowDialog();
+            //get the new security state
+            Sec = Change.Sec;
+        }
+
+        private void addUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //display the adduser page
+            frmAddUser Add = new frmAddUser();
+            Add.ShowDialog();
         }
     }
 }
